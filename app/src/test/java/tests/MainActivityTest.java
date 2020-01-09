@@ -8,6 +8,7 @@ import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 @RunWith(RobolectricTestRunner.class)
 public class MainActivityTest {
@@ -16,6 +17,6 @@ public class MainActivityTest {
     public void testStudentNameIsDisplayed() {
         MainActivity activity = Robolectric.setupActivity(MainActivity.class);
         activity.findViewById(R.id.showBtn).performClick();
-        assertEquals(activity.findViewById(R.id.name).isShown(), false);
+        assertTrue(activity.findViewById(R.id.name).isShown());
     }
 }
