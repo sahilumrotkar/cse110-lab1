@@ -16,6 +16,6 @@ public class MainActivityTest {
     public void testStudentNameIsDisplayed() {
         MainActivity activity = Robolectric.setupActivity(MainActivity.class);
         activity.findViewById(R.id.showBtn).performClick();
-        assertEquals(activity.findViewById(R.id.name).isShown(), true);
+        assertEquals(activity.findViewById(R.id.name).isShown(), false);
     }
 }
