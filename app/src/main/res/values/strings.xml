@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">MyFirstApp</string>
+    <string name="app_name">Hello World</string>
     <string name="action_settings">Settings</string>
+    <string name="welcome_message">Welcome To</string>
+    <string name="class_number">CSE 110</string>
+    <string name="class_name">Software Engineering</string>
+    <string name="quarter">Winter 2020</string>
+    <string name="student_name">Sahil Umrotkar</string>
+    <string name="show_button">Show Button</string>
+    <string name="hide_button">Hide Button</string>
 </resources>
